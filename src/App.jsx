@@ -1,10 +1,13 @@
 import "./App.css";
+import Navbar from "./component/Navbar";
+import Sidebar from "./component/Sidebar";
 
 function App() {
   return (
-    <>
-      <h1 className="bg-blue-700">bangladesh</h1>
-    </>
+    <div>
+      <Navbar />
+      <Sidebar />
+    </div>
   );
 }
 
